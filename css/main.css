@@ -1,0 +1,204 @@
+body
+{
+  margin: 0px;
+  padding: 0px;
+  font-family: helvetica, arial, times, serif;
+  color: #FFFFFF;
+  background-color: #000000;
+  background-image: url(http://spanglerco.com/images/bgimage.jpg);
+}
+a:link, a:visited
+{
+  color: #660000;
+  text-decoration: none;
+}
+a:hover, a:active
+{
+  color: #000066;
+  text-decoration: underline;
+}
+div#sidemenu a:link, div#footer a:link, div#topmenu a:link
+{
+  color: #CCFF00;
+  text-decoration: none;
+}
+div#sidemenu a:visited, div#footer a:visited, div#topmenu a:visited
+{
+  color: #CCFF00;
+  text-decoration: none;
+}
+div#sidemenu a:hover, div#footer a:hover, div#topmenu a:hover
+{
+  color: #FFFF00;
+  text-decoration: underline;
+  background-color: #000000;
+}
+div#sidemenu a:active, div#footer a:active, div#topmenu a:active
+{
+  color: #FFFF00;
+  text-decoration: underline;
+}
+div#header
+{
+  color: #33FF00;
+  background-color: #000000;
+  height: 111px;
+  background-image: url(http://spanglerco.com/images/bgimage.jpg);
+  background-repeat: repeat;
+}
+div#header img
+{
+  border: 0px;
+  float: left;
+  text-align: center;
+}
+div#topmenublock
+{
+  background-color: #000000;
+  background-image: url(http://spanglerco.com/images/bgimage.jpg);
+  background-repeat: repeat;
+  float: right;
+  width: 10px;
+}
+div#topmenu
+{
+  background-color: #000000;
+  background-image: url(http://spanglerco.com/images/bgimage.jpg);
+  background-repeat: repeat;
+  float: right;
+  border-width: 0px 0px 2px 2px;
+  border-style: solid;
+  border-color: #00AA00;
+/*  margin-right: 10px;*/
+}
+div#topmenu ul
+{
+  list-style-type: none;
+  padding: 5px;
+  margin: 0px;
+  text-align: left;
+}
+div#topmenu li
+{
+  display: inline;
+  border: 1px solid #FFFF00;
+  padding: 0px 10px;
+}
+div#topmenu li#topCurrentItem
+{
+  border: 1px solid #33FF00;
+}
+div#topmenu li#topCurrentItem a
+{
+  color: #33FF00;
+  text-decoration: none;
+}
+div#topmenu li:hover
+{
+  background-color: #000000;
+}
+div#sidemenu
+{
+  background-image: url(http://spanglerco.com/images/bgimage.jpg);
+  background-repeat: repeat;
+  float: left;
+  padding: 0px 10px 10px 2px;
+  width: 150px;
+}
+div#sidemenu ul
+{
+  list-style-type: none;
+  margin: 0px;
+  padding: 10px;
+}
+div#sidemenu li
+{
+  border: 1px solid #FFFF00;
+  padding: 2px;
+  margin-top: 8px;
+}
+div#sidemenu li a
+{
+  display: block;
+}
+div#sidemenu li#sideCurrentItem
+{
+  border: 1px solid #33FF00;
+}
+div#sidemenu li#sideCurrentItem a
+{
+  color: #33FF00;
+  text-decoration: none;
+}
+div#sidemenu h3
+{
+  text-align: center;
+  color: #FFFF00;
+}
+ul#hierarchy
+{
+  text-align: left;
+  list-style-type: none;
+  padding: 0px;
+  margin: 0px;
+}
+ul#hierarchy li
+{
+  display: inline;
+  background-image: url(http://spanglerco.com/images/bullet.gif);
+  background-repeat: no-repeat;
+  background-position: 0px 7px;
+  padding-left: 8px;
+}
+ul#hierarchy li#first
+{
+  background: transparent;
+}
+div#content
+{
+  color: #000000;
+  margin-left: 162px;
+  padding-left: 5px;
+  margin-right: 10px;
+  padding-right: 5px;
+  background-color: #FFFFFF;
+  border-width: 2px;
+  border-style: solid;
+  border-color: #00AA00;
+}
+div#clear
+{
+  clear: both;
+  height: 1px;
+}
+div#footer
+{
+  background-repeat: repeat;
+  background-image: url(http://spanglerco.com/images/bgimage.jpg);
+  text-align: center;
+  color: #33FF00;
+  background-color: #000000;
+  font-size: small;
+}
+div#footer img
+{
+  border: 0px;
+}
+div#footer ul
+{
+  list-style-type: none;
+  padding: 10px;
+}
+div#footer ul li
+{
+  display: inline;
+  padding: 20px;
+}
+div#footer ul#valid
+{
+  padding: 2px;
+}
+div#footer ul#valid li
+{
+  padding: 2px;
+}

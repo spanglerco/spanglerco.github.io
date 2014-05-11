@@ -1,0 +1,7 @@
+User-agent: * 
+Disallow: /css/
+Disallow: /files/
+Disallow: /images/
+Disallow: /magic/
+
+Crawl-delay: 120
